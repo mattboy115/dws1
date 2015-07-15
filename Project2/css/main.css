@@ -1,0 +1,19 @@
+body {
+	background-color: #2D043B;
+}
+
+#wrapper {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: black solid 3px;
+}
+
+h1 {
+	font-family: 'Voltaire', sans-serif;
+}
+
+figure {
+	display: inline-block;
+	padding-right: 10px;
+}
