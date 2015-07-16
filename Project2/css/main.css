@@ -1,5 +1,6 @@
 body {
 	background-color: #2D043B;
+	padding: auto;
 }
 
 #wrapper {
@@ -8,7 +9,17 @@ body {
 	margin-right: auto;
 	border: black solid 3px;
 	background-color: #514A52;
-	box-shadow: 0 0 10px black;
+	box-shadow: 0 3px 100px limegreen;
+}
+
+#content {
+	float: left;
+	margin-left: 20px;
+}
+
+a {
+	color: limegreen;
+	text-decoration: none;
 }
 
 h1 {
@@ -55,7 +66,7 @@ li a {
 
 #introSection {
 	margin-top: 30px;
-	width: 800px;
+	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
@@ -71,14 +82,14 @@ li a {
 	border: 15px #2D043B solid;
 	border-radius: 100%;]
 	background-color: #422652;
-	margin-left: 180px;
+	margin-left: 80px;
 	box-shadow: 12px 20px 30px black;
 
 }
 
 #imageGallery {
 	margin-top: 30px;
-	width: 800px;
+	width: 600px;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
@@ -106,4 +117,83 @@ section {
 #always {
 	text-align: center;
 	font-size: 20px;
+}
+
+#theIrkenPeople {
+	margin-top: 30px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: sans-serif;
+	color: white;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+dd{
+	font-size: 12px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+#contactInfo {
+	margin-top: 30px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	color: white;
+	margin-bottom: 30px;
+}
+
+aside {
+	float: right;
+	background-color: gray;
+	border: solid #2D043B;
+	border-width: 3px 12px 12px 3px;
+	height: 800px;
+	width: 230px;
+	margin-right: 20px;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+#paypal {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 2px #000000;
+}
+
+footer {
+	width: 1000px;
+	height: 40px;
+	background-color: #422652;
+	border-top: 3px solid #2D043B;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-family: sans-serif;
+	clear: both;
 }
