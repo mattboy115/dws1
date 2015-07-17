@@ -1,7 +1,10 @@
+/*This is just the background*/
+
 body {
 	background-color: #2D043B;
-	padding: auto;
 }
+
+/*Everything goes in this*/
 
 #wrapper {
 	width: 1000px;
@@ -9,8 +12,10 @@ body {
 	margin-right: auto;
 	border: black solid 3px;
 	background-color: #514A52;
-	box-shadow: 0 3px 100px limegreen;
+	box-shadow: 0 3px 100px #00FF00;
 }
+
+/*All the stuff on the left side goes here*/
 
 #content {
 	float: left;
@@ -18,7 +23,7 @@ body {
 }
 
 a {
-	color: limegreen;
+	color: #00FF00;
 	text-decoration: none;
 }
 
@@ -75,12 +80,12 @@ li a {
 	padding-left: 30px;
 	padding-right: 30px;
 	font-family: sans-serif;
-	color: white;
+	color: #ffffff;
 }
 
 #logo {
 	border: 15px #2D043B solid;
-	border-radius: 100%;]
+	border-radius: 100%;
 	background-color: #422652;
 	margin-left: 80px;
 	box-shadow: 12px 20px 30px black;
@@ -99,7 +104,7 @@ li a {
 	padding-right: 30px;
 	padding-bottom: 20px;
 	font-family: sans-serif;
-	color: white;
+	color: #ffffff;
 }
 
 figure {
@@ -119,6 +124,12 @@ section {
 	font-size: 20px;
 }
 
+ol {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
 #theIrkenPeople {
 	margin-top: 30px;
 	width: 600px;
@@ -130,7 +141,7 @@ section {
 	padding-left: 30px;
 	padding-right: 30px;
 	font-family: sans-serif;
-	color: white;
+	color: #ffffff;
 }
 
 dt {
@@ -164,13 +175,15 @@ h3 {
 	padding-right: 30px;
 	padding-bottom: 30px;
 	font-family: sans-serif;
-	color: white;
+	color: #ffffff;
 	margin-bottom: 30px;
 }
 
+/*Everything from here is the sidebar*/
+
 aside {
 	float: right;
-	background-color: gray;
+	background-color: #808080;
 	border: solid #2D043B;
 	border-width: 3px 12px 12px 3px;
 	height: 800px;
@@ -182,9 +195,11 @@ aside {
 
 #paypal {
 	text-align: center;
-	color: white;
-	text-shadow: 0px 2px #000000;
+	color: #ffffff;
+	text-shadow: 2px 3px #000000;
 }
+
+/*And finally this is the footer*/
 
 footer {
 	width: 1000px;
@@ -192,7 +207,7 @@ footer {
 	background-color: #422652;
 	border-top: 3px solid #2D043B;
 	text-align: center;
-	color: white;
+	color: #ffffff;
 	font-size: 12px;
 	font-family: sans-serif;
 	clear: both;
