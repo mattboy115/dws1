@@ -3,28 +3,32 @@
 body {
 	background-image: url('../images/background.png');
 	background-color: #2D043B;
+	width: 100%;
+	/*Was 1366px wide*/
 }
 
 /*Everything goes in this*/
 
 #wrapper {
-	width: 1000px;
+	width: 73.2%;
+	/* Was 1000px wide */
 	margin-left: auto;
 	margin-right: auto;
 	border: black solid 3px;
-	background-color: #514A52;
-	box-shadow: 0 3px 100px #00FF00;
+	background-color: rgba(81, 74, 82, 0.75);
+	box-shadow: 0 3px 100px #0F0;
 }
 
 /*All the stuff on the left side goes here*/
 
 #content {
 	float: left;
-	margin-left: 20px;
+	margin-left: 2%;
+	width: 60%;
 }
 
 a {
-	color: #00FF00;
+	color: #0F0;
 	text-decoration: none;
 }
 
@@ -32,8 +36,8 @@ h1 {
 	font-family: 'Voltaire', sans-serif;
 	text-align: center;
 	color: #2D043B;
-	font-size: 100px;
-	text-shadow: 0px 4px #000000;
+	font-size: 6em;
+	text-shadow: 0px 4px #000;
 	margin-top: auto;
 	padding-top: 20px;
 }
@@ -49,7 +53,7 @@ header p {
 }
 
 nav {
-	width: 1000px;
+	width: 100%;
 	height: 40px;
 	background-color: #422652;
 	border-top: 3px solid #2D043B;
@@ -60,60 +64,67 @@ nav ul li {
 	display: inline-block;
 	list-style: none;
 	font-family: arial;
-	font-size: 20px;
-	margin-right: 20px;
+	font-size: 1em;
+	margin-left: 2%;
 	margin-top: -40px;
 }
 
 li a {
 	text-decoration: none;
-	color: #ffffff;
+	color: #fff;
 }
 
 #introSection {
 	margin-top: 30px;
-	width: 600px;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
 	border-width: 3px 12px 12px 3px;
 	background-color: #66005A;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3%;
+	padding-right: 3%;
 	font-family: sans-serif;
-	color: #ffffff;
+	color: #fff;
 }
 
 #logo {
 	border: 15px #2D043B solid;
 	border-radius: 100%;
 	background-color: #422652;
-	margin-left: 80px;
+	margin-left: 13%;
+	width: 40%;
 	box-shadow: 12px 20px 30px black;
 
 }
 
 #imageGallery {
 	margin-top: 30px;
-	width: 600px;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
 	border-width: 3px 12px 12px 3px;
 	background-color: #69005C;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3%;
+	padding-right: 3%;
 	padding-bottom: 20px;
 	font-family: sans-serif;
-	color: #ffffff;
+	color: #fff;
+	clear: left;
 }
 
 figure {
-	display: inline-block;
 	font-size: 12px;
-	margin: 5px;
-	position: relative;
+	display: inline-block;
+	margin: 0.5%;
 	text-align: center;
+	float: left;
+	width: 30%;
+}
+
+figure img {
+	width: 100%;
 }
 
 section {
@@ -128,21 +139,21 @@ section {
 ol {
 	font-family: sans-serif;
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 }
 
 #theIrkenPeople {
-	margin-top: 30px;
-	width: 600px;
+	margin-top: 0.03%;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
 	border-width: 3px 12px 12px 3px;
 	background-color: #66005A;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3%;
+	padding-right: 3%;
 	font-family: sans-serif;
-	color: #ffffff;
+	color: #fff;
 }
 
 dt {
@@ -165,18 +176,18 @@ h3 {
 }
 
 #contactInfo {
-	margin-top: 30px;
-	width: 600px;
+	margin-top: 0.03%;
+	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
 	border: solid 3px #2D043B;
 	border-width: 3px 12px 12px 3px;
 	background-color: #66005A;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 3%;
+	padding-right: 3%;
 	padding-bottom: 30px;
 	font-family: sans-serif;
-	color: #ffffff;
+	color: #fff;
 	margin-bottom: 30px;
 }
 
@@ -184,32 +195,42 @@ h3 {
 
 aside {
 	float: right;
-	background-color: #808080;
+	background: linear-gradient(#808080, #2B2B2B);
 	border: solid #2D043B;
 	border-width: 3px 12px 12px 3px;
-	height: 800px;
-	width: 230px;
-	margin-right: 20px;
+	height: 700px;
+	width: 23%;
+	margin-right: 2%;
 	margin-top: 30px;
-	padding: 10px;
+	padding: 1%;
 }
 
 #paypal {
 	text-align: center;
-	color: #ffffff;
-	text-shadow: 2px 3px #000000;
+	color: #fff;
+	text-shadow: 2px 3px #000;
+}
+
+#minimoose {
+	width: 80%;
 }
 
 /*And finally this is the footer*/
 
 footer {
-	width: 1000px;
+	width: 100%;
 	height: 40px;
 	background-color: #422652;
 	border-top: 3px solid #2D043B;
 	text-align: center;
-	color: #ffffff;
+	color: #fff;
 	font-size: 12px;
 	font-family: sans-serif;
 	clear: both;
+}
+
+/*For Pages other than index*/
+
+#contenSection {
+	
 }
