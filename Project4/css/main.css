@@ -1,0 +1,297 @@
+/*This is just the background*/
+
+body {
+	background-image: url('../images/background.png');
+	background-color: #2D043B;
+	width: 100%;
+	/*Was 1366px wide*/
+}
+
+/*Everything goes in this*/
+
+#wrapper {
+	width: 75%;
+	/* Was 1000px wide */
+	margin-left: auto;
+	margin-right: auto;
+	border: black solid 3px;
+	background-image: url("../images/irken_invader_logo.png");
+	background-color: rgba(81, 74, 82, 0.80);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 640px;
+	box-shadow: 0 3px 100px #0F0;
+}
+
+/*All the stuff on the left side goes here*/
+
+#content {
+	float: left;
+	margin-left: 2%;
+	width: 60%;
+}
+
+a {
+	color: #0F0;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Voltaire', sans-serif;
+	text-align: center;
+	color: #2D043B;
+	font-size: 6.25em;
+	text-shadow: 0px 4px #000;
+	margin-top: auto;
+	padding-top: 2%;
+}
+
+header p {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: arial;
+	color: #2D043B;
+	margin-top: -6%;
+
+}
+
+nav {
+	width: 100%;
+	height: 50%;
+	background-color: #422652;
+	border-top: 3px solid #2D043B;
+	border-bottom: 3px solid #2D043B;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	font-family: arial;
+	font-size: 1em;
+	margin-left: 2%;
+	margin-top: -4%;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+p {
+	font-size: 1em;
+}
+
+#introSection {
+	margin-top: 3%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+#logo {
+	border: 15px #2D043B solid;
+	border-radius: 100%;
+	background-color: #422652;
+	margin-left: 13%;
+	width: 66%;
+	box-shadow: 12px 20px 30px black;
+
+}
+
+#imageGallery {
+	margin-top: 3%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #69005C;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 2%;
+	font-family: sans-serif;
+	color: #fff;
+	overflow: auto;
+}
+
+figure {
+	font-size: .75em;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 28%;
+	margin: 2%;
+}
+
+figure img {
+	width: 100%;
+}
+
+.clear {
+	clear: left;
+}
+
+section {
+	border-radius: 20px;
+}
+
+#always {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+ol {
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #fff;
+}
+
+#theIrkenPeople {
+	margin-top: 3%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+dt {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+dd{
+	font-size: 0.75em;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+#contactInfo {
+	margin-top: 3%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	color: #fff;
+	margin-bottom: 3%;
+}
+
+.title {
+	float: left;
+	width: 23%;
+	margin-bottom: 10px;
+}
+
+input, textarea {
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+input:hover, textarea:hover {
+	background-color: #CC0099;
+	border: 2px solid #FF99FF;
+
+}
+
+input:focus, textarea:focus {
+	background-color: #CC0099;
+	border: 2px solid #FF99FF;
+	box-shadow: 0 0 7px 3px rgba(255, 204, 255, 0.35);
+	outline: none;
+}
+
+
+/*Everything from here is the sidebar*/
+
+aside {
+	float: right;
+	background: linear-gradient(#808080, #2B2B2B);
+	border: solid #2D043B;
+	border-width: 3px 12px 12px 3px;
+	height: 700px;
+	width: 23%;
+	margin-right: 2%;
+	margin-top: 2%;
+	padding: 1%;
+}
+
+#sidebar_email {
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+}
+
+#email_button {
+	width: 90%;
+}
+
+#paypal {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 3px #000;
+}
+
+#minimoose {
+	width: 90%;
+}
+
+/*And finally this is the footer*/
+
+footer {
+	width: 100%;
+	height: 4%;
+	background-color: #422652;
+	border-top: 3px solid #2D043B;
+	text-align: center;
+	color: #fff;
+	font-size: 1em;
+	font-family: sans-serif;
+	clear: both;
+}
+
+/*For Pages other than index*/
+
+#contentSection {
+	margin-top: 3%;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 3px #2D043B;
+	border-width: 3px 12px 12px 3px;
+	background-color: #66005A;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 30px;
+	font-family: sans-serif;
+	color: #fff;
+	margin-bottom: 3%;
+}
