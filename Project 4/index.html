@@ -18,10 +18,10 @@
 			<nav>
 				<ul>
 					<li><a id="current_page" href="#">Home</a></li>
-					<li><a href="#">News</a></li>
 					<li><a href="#info_section">About</a></li>
 					<li><a href="#languages">Languages</a></li>
 					<li><a href="#contact">Contact</a></li>
+					<li><a href="#newsletter">Newsletter</a></li>
 				</ul>
 			</nav>
 			<h1>Code Commandos</h1>
@@ -101,7 +101,7 @@
 				<section id="aside">
 					<h2>Languages!</h2>
 					<hr>
-					<table border="1" id="languages">
+					<table id="languages">
 						<th colspan="3">Languages we are currently offering include:</th>
 						<tr>
 							<td><img alt="html" src="images/logo_html.png"></td>
@@ -117,8 +117,25 @@
 					<hr>
 					<p id="contact">Contact the maker of this website at <a href="mailto:mattboy115@yahoo.com?Subject=About%20the%20Site">mattboy115@yahoo.com</a>.</p>
 				</section>
+				<section id="newsletter">
+					<h2>Newsletter</h2>
+					<p>For the latest news and updates from this site and its resources please sign up for our newsletter which will be sent directly to your email.</p>
+					<fieldset>
+						<form
+							action="http://example.com/join.php"
+							method="post">
+							<input id="name" type="text" placeholder="Name">
+							<input id="email" type="text" placeholder="Email">
+							<textarea id="comments" placeholder="What do you hope to get out of this site?"></textarea>
+						</form>
+						<input id="submit" type="submit" value="Subscribe">
+					</fieldset>
+					<img id="newsletter_pic" src="images/newsletter.jpg">
+				</section>
 			</div>
 		</div>
+
+
 
 		<!--Footer Start-->
 		<footer>
