@@ -25,7 +25,6 @@ header {
 
 aside {
 	width: 6%;
-	height: relative;
 	float: left;
 	background-color: #fff;
 	border-radius: 10%;
@@ -65,7 +64,6 @@ li a:hover {
 	margin-left: -12px;
 	margin-right: -12px;
 	transition: 250ms;
-	transform: fade;
 }
 
 li a:active {
