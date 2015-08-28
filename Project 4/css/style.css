@@ -200,13 +200,13 @@ figure img {
 #aside {
 	float: left;
 	width: 31%;
-	padding: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
 	background-color: #fff;
 	margin-left: 5%;
 	margin-top: 40px;
-	height: 505px;
 	margin-bottom: 30px;
-	padding-bottom: 100px;
+	padding-bottom: 140px;
 }
 
 #languages {
@@ -217,14 +217,15 @@ th {
 	text-align: left;
 }
 
-td {
+#languages td {
 	width: 30%;
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
 
-td:hover {
+#languages td:hover {
 	background-color: #ADB0AF;
+	transition: 1s;
 }
 
 td img {
@@ -250,10 +251,9 @@ fieldset{
 	margin-left: 2%;
 }
 
-input, textarea {
-	display: block;
+#email, #name, .buttons, textarea, #submit {
 	width: 100%;
-	margin: 5%;
+	margin: 3%;
 	height: 30px;
 	border: none;
 	box-shadow: inset 0 0 7px #4B4D4C;
@@ -262,13 +262,17 @@ input, textarea {
 	font-size: 1.10em;
 }
 
-input:hover, textarea:hover {
+#name:hover, #email:hover, textarea:hover {
 	background-color: #D9DDDB;
 }
 
-input:focus, textarea:focus {
+#name:focus, #email textarea:focus {
 	background-color: #D9DDDB;
 	outline: none;
+}
+
+#name, #email {
+	text-indent: 3%;
 }
 
 textarea {
@@ -278,6 +282,8 @@ textarea {
 #submit {
 	width: 40%;
 	cursor: pointer;
+	border-radius: 3px;
+	float: left;
 }
 
 #newsletter_pic{
@@ -289,23 +295,89 @@ textarea {
 .buttons {
 	width: 16px;
 	box-shadow: none;
-	display: inline-block;
-}
-
-.buttons:hover {
-	text-shadow: 0 0 5px #000;
 }
 
 .label {
 	font-size: .9em;
-	vertical-align: super;
-	margin-left: -10px;
+	margin-left: -5px;
 	margin-right: 10px;
 
 }
 
 form p {
 	margin-bottom: -15px;
+}
+
+/*Meetup*/
+
+#meetings {
+	background-color: #fff;
+	overflow: auto;
+	margin-top: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+}
+
+#meetings fieldset {
+	width: 40%;
+}
+
+#meet_label, #meet_name, #meet_button {
+	float: left;
+}
+
+#meet_label {
+	font-size: 1.5em;
+	margin-right: 2%;
+}
+
+#meet_name {
+	height: 30px;
+	width: 60%;
+	font-size: 1.2em;
+	text-indent: 3%;
+}
+
+#meet_button {
+	width: 40%;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	box-shadow: inset 0 0 7px #4B4D4C;
+	font-size: 1.1em;
+}
+
+/*Meet Table*/
+
+#meet_schedule {
+	width: 50%;
+	border-spacing: 4px;
+}
+
+#meet_schedule tr {
+	background-color: #D9DDDB;
+	transition: 700ms;
+}
+
+#meet_schedule th {
+	letter-spacing: 2px;
+}
+
+#meet_schedule td, #meet_schedule th {
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #ADB0AF;
+	border-right: 1px solid #ADB0AF;
+	padding: 1%;
+	border-radius: 2px;
+	text-align: left;
+}
+
+#meet_schedule tr:hover {
+	background-color: #ADB0AF;
 }
 
 /*Footer*/
@@ -319,5 +391,4 @@ footer {
 	height: 30px;
 	padding-top: 12px;
 	font-size: .85em;
-
 }

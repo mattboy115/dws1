@@ -126,8 +126,8 @@
 						<form
 							action="http://example.com/join.php"
 							method="post">
-							<input id="name" type="text" placeholder="Name">
-							<input id="email" type="text" placeholder="Email">
+							<input id="name" type="text" placeholder="Name" required>
+							<input id="email" type="text" placeholder="Email" required>
 							<textarea id="comments" placeholder="What do you hope to get out of this site?"></textarea>
 							<p>Pick a button. I don't care which one.</p>
 							<input type="radio" name="buttons" value="This" class="buttons" id="this"><label class="label" for="this">This</label>
@@ -137,6 +137,41 @@
 						</form>
 					</fieldset>
 					<img  alt="Newsletter picture" id="newsletter_pic" src="images/newsletter.jpg">
+				</section>
+				<section id="meetings">
+					<h2>Meetups</h2>
+					<p>We hold 2 meet ups in the third week of each month for those in the Columbus area who are interested. Please enter your name in the box below so that we know how many will show up. We will have refreshments and wish to have the right amount. There is a schedule to the right showing meeting times for the next three months.</p>
+					<fieldset>
+						<form
+							action="http://example.com/join.php"
+							method="post">
+							<label for="meet_name" id="meet_label">Name:</label>
+							<input type="text" id="meet_name">
+							<input type="submit" id="meet_button">
+						</form>
+					</fieldset>	
+					<table id="meet_schedule">
+						<tr>
+							<td></td>
+							<th scope="col">Tuesday</th>
+							<th scope="col">Thursday</th>
+						</tr>
+						<tr id="september">
+							<th >September</th>
+							<td>3:00pm-4:30pm</td>
+							<td>4:00pm-5:00pm</td>
+						</tr>
+						<tr id="november">
+							<th>November</th>
+							<td>3:00pm-4:30pm</td>
+							<td>10:30am-11:30am</td>
+						</tr>
+						<tr id="december">
+							<th>December</th>
+							<td>3:30pm-4:30pm</td>
+							<td>4:00pm-5:00pm</td>
+						</tr>
+					</table>
 				</section>
 			</div>
 		</div>
