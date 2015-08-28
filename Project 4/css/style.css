@@ -244,6 +244,10 @@ td img {
 	overflow: auto;
 }
 
+#newsletter p {
+	margin-bottom: 3px;
+}
+
 fieldset{
 	border: none;
 	width: 30%;
@@ -301,6 +305,7 @@ textarea {
 	font-size: .9em;
 	margin-left: -5px;
 	margin-right: 10px;
+	vertical-align: 10px;
 
 }
 
@@ -337,6 +342,12 @@ form p {
 	width: 60%;
 	font-size: 1.2em;
 	text-indent: 3%;
+}
+
+#meet_name:focus {
+	outline: none;
+	background-color: #D9DDDB;
+	border: none;
 }
 
 #meet_button {
